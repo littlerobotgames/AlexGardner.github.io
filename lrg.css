@@ -1,0 +1,143 @@
+h1 {
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+h3, summary {
+    background-color: #292929;
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 2px solid black;
+}
+h4 {
+    margin-left: 15px;
+}
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+}
+nav {
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    font-size: 1.2em;
+}
+nav ul {
+    list-style: none;
+    margin: 25px;
+    padding-left: 0px;
+}
+nav li {
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:link, a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    transition: background-color 2s linear;
+}
+nav a:hover {
+    color: #f7941e;
+    background-color: #1f1f1f;
+    transition: background-color 2s linear;
+}
+main {
+    display: block;
+    overflow: auto;
+}
+footer {
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer a{
+    text-shadow: none;
+}
+.game {
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #5A5A5A;
+}
+.game_desc {
+    margin: 25px;
+    grid-row: 1;
+    grid-column: 2;
+}
+.spec_table {
+    grid-column: 1/2;
+    grid-row: 2;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 15px;
+}
+th {
+    text-align: right;
+    font-weight: bold;
+}
+th, td {
+    font-size: 80%;
+    padding: 0.5em;
+    border: 1px solid black;
+    margin: 0;
+}
+label {
+    float: left;
+    clear: left;
+    display: block;
+    text-align: right;
+    width: 180px;
+    padding-right: 5px;
+}
+input, textarea, select {
+    display: block;
+    margin-bottom: 20px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+input[type="submit"] {
+    margin-left: 180px;
+}
+#wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    background-image: linear-gradient(#757575, #1f1f1f);
+    background-color: #5A5A5A;
+}
+#symphonic_pic {
+    grid-row: 1;
+    grid-column: 1;
+    height: 253px;
+    width: 450px;
+    background-image: url(symphonic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#littleexorcist_pic {
+    grid-row: 1;
+    grid-column: 1;
+    height: 253px;
+    width: 450px;
+    background-image: url(exorcist.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Little Robot Games | Support</title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="lrg.css">
+    <link rel="shortcut icon" href="lrg_logo.png">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Little Robot Games</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h3>Bug Reporting</h3>
+            <p>Found an issue with a game? Fill out and submit this form to let us know!</p>
+
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <label for="myName">Your Name:</label><input type="text" name="myName" id="myName" required="required">
+                <label for="myGame">Game:</label>
+                    <select size="1" name="myGame" id="myGame" required="required">
+                        <option value="">Select Your Game</option>
+                        <option value="SymphonicMayhem">Symphonic Mayhem</option>
+                        <option value="LittleExorcist">Little Exorcist</option>
+                    </select>
+                <label for="myOS">Operating System:</label>
+                    <select size="1" name="myOS" id="myOS" required="required">
+                        <option value="">Select Your OS</option>
+                        <option value="Windows7">Windows 7</option>
+                        <option value="Windows10">Windows 10</option>
+                        <option value="Windows11">Windows 11</option>
+                    </select>
+                <label for="myComment">Comments:</label>
+                    <textarea name="myComment" id="myComment" rows="2" cols="30" required="required">Describe the issue in detail</textarea>
+                <input type="submit">
+            </form>
+        </main>
+        <footer>
+            Made using Gamemaker Studio 2 <br>
+            <a href="https://gamemaker.io/en" target="_blank">
+                <img src="GameMaker_Studio_2_logo.png" alt="Logo for GameMaker Studio 2" width="200" height="54"></a>
+            <br>
+            Copyright &copy; 2022 Little Robot Games <br>
+            <a href="mailto:business@littlerobotgames.com">business@littlerobotgames.com</a>
+        </footer>
+    </div>
+</body>
+</html>
